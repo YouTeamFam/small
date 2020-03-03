@@ -1,0 +1,51 @@
+.wai{
+  width: 100%;
+  height: 100%;
+  border: 2rpx solid lightcyan;
+  background-color: white;
+  position: relative;
+}
+.biaoqian{
+  width: 100%;
+  height: 20%;
+  margin-top: 30px;
+  background-color: white;
+  border: 2rpx solid lightcyan;
+}
+.whell{
+  width: 100%;
+  height: 20%;
+  margin-top: 30px;
+  background-color: white;
+  border: 2rpx solid lightcyan;
+}
+.er_house{
+  width: 100%;
+  height: 20%;
+  margin-top: 30px;
+  background-color: white;
+  border: 2rpx solid lightcyan;
+}
+.jx_house{
+  width: 100%;
+  height: 20%;
+  margin-top: 30px;
+  background-color: white;
+  border: 2rpx solid lightcyan;
+}
+.jx_xiaoqu{
+  width: 100%;
+  height: 20%;
+  margin-top: 30px;
+  background-color: white;
+  border: 2rpx solid lightcyan;
+}
+#b1{
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+}
+.bq{
+  color: blueviolet;
+  background-color: rgb(170, 241, 170);
+}

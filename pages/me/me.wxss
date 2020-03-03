@@ -1,0 +1,92 @@
+/* pages/me/me.wxss */
+.bg {
+  height: 120px;
+  background-color: #efeff4;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+}
+
+.headIcon {
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  display: flex;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 15rpx;
+  justify-content: center;
+}
+
+.button {
+  margin: 10px;
+  font-size: 14px;
+}
+
+.head image {
+  border-radius: 50%;
+}
+
+.hr {
+  width: 100%;
+  height: 15px;
+  background-color: #f4f5f6;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+.detail2 {
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+  height: 50px;
+  line-height: 50px;
+  color: #888;
+}
+.detail {
+  font-size: 25px;
+  position: absolute;
+  right: 10px;
+  height: 50px;
+  line-height: 50px;
+  color: #888;
+  margin-top:-80px;
+}
+.line {
+  border: 1px solid #ccc;
+  opacity: 0.2;
+}
+.user_img{
+  display: flex;
+  flex-direction: column;
+  align-items:left;
+}
+.me_img{
+  margin-top:10rpx;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  border: 2rpx solid black;
+}
+.user_text {
+  position: absolute;
+  margin-left:260rpx;
+  margin-top:-145rpx;
+}
+.hint_text{
+  font-size: 12px
+}

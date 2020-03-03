@@ -1,0 +1,29 @@
+<!--pages/broker_registerpage/broker_registerpage.wxml-->
+<view id="total">
+<form bindsubmit="formSubmit">
+<view id="t1">
+<text>账号</text><input type="text" name="username" id="use" placeholder="注册您的账号" ></input>
+</view>
+<view id="t2">
+<text>密码</text><input type="password" name="password" id="pass1" placeholder="注册您密码" ></input>
+</view>
+<view id="t6">
+<text>姓名</text><input type="password" name="name" id="name" placeholder="输入您的姓名"></input>
+</view>
+<view id="t3">
+  <radio-group class="radio-group" bindchange="radioChange" name='sex'>
+   <text>性别</text><label class="radio" wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+  </label>
+   </radio-group>
+</view>
+<view id="t4">
+<text>手机号</text><input type="text" name="phone" id="phone" placeholder="请输入您的手机号" bindinput='bindPhoneInput'></input>
+</view>
+<button id="btn6" bindtap='Usercode'><text>发送验证码</text></button>
+<view id="t5">
+<text>验证码</text><input type="text" name="code" id="code" placeholder="请输入验证码" ></input>
+</view>
+<button id="btn1" form-type="submit"><text>注册</text></button>
+</form>
+</view>

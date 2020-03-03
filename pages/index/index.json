@@ -1,0 +1,9 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "#f8880f",
+  "navigationBarTitleText": "精选",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "Select": "/components/select/select"
+  }
+}

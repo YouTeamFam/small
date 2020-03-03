@@ -1,0 +1,24 @@
+<!--pages/view/view.wxml-->
+<view class="beijing" wx:if='{{mes_title}}'>
+  <view class="wai">
+    <view class="head_pic">
+      <image  src="https://pic1.ajkimg.com/display/anjuke/ef6970-%E5%92%B8%E9%98%B3%E7%8E%9B%E9%9B%85%E6%88%BF%E5%B1%8B/f2209eaedfad09968e7b211f7d2c46c9-599x450.jpg?t=1" lazy-load="true" class="proimg" class="img1"></image>
+    </view>
+    <view class="time">
+      时间：{{last_date}}
+    </view>
+    <view class="mes">
+      <font class='kan'>标题：</font>{{mes_title}}
+    </view>
+    <view class="mes1">
+      <font class='del'>内容：</font>{{mes_text}}
+    </view>
+    <view class="btn" bindtap="showDetail" data-proid="{{user_id}}" >
+      <button><font class='del'>删除</font></button>
+    </view>
+  </view>
+
+</view>
+<view wx:else id="else">
+  暂时还没有消息
+</view>

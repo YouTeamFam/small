@@ -1,0 +1,148 @@
+/* pages/loginpage/loginpage.wxss */
+#total{
+  width:100%;
+  height:1300rpx;
+  background-color: rgb(245,245,245);
+}
+image{
+  width:150rpx;
+  height:150rpx;
+  position: relative;
+  left:300rpx;
+  top:100rpx;
+}
+#t1{
+  width:100%;
+  height:125rpx;
+  background-color: white;
+  position: relative;
+  top:200rpx;
+}
+#t2{
+  width:100%;
+  height:125rpx;
+  background-color: white;
+  position: relative;
+  top:210rpx;
+}
+#t3{
+  width:100%;
+  height:125rpx;
+  background-color: white;
+  position: relative;
+  top:220rpx;
+}
+#t1 text{
+position: relative;
+left:40rpx;
+top:40rpx;
+color: rgb(143, 143, 143);
+}
+#use{
+  width:400rpx;
+  height:80rpx;
+  margin-left: 200rpx;
+  position: relative;
+  bottom: 25rpx;
+}
+#t2 text{
+position: relative;
+left:40rpx;
+top:40rpx;
+color: rgb(143, 143, 143);
+}
+
+#pass1{
+  width:400rpx;
+  height:80rpx;
+  margin-left: 200rpx;
+  position: relative;
+  bottom: 25rpx;
+}
+
+#t3 text{
+position: relative;
+left:40rpx;
+top:40rpx;
+color: rgb(143, 143, 143);
+}
+.radio{
+position: relative;
+margin-left: 10rpx;
+left: 50px;
+top:40rpx;
+font-size:15px; 
+}
+
+#btn1{
+  position: relative;
+  top:320rpx;
+  background-color:rgb(51, 204, 170);
+  width:600rpx;
+  border-radius: 50rpx;
+}
+#btn1 text{
+  color:white;
+  font-size: 39rpx;
+}
+
+#btn2{
+  position: relative;
+  top:370rpx;
+  right:230rpx;
+  background-color: rgb(245, 245, 245);
+}
+
+#btn3{
+  position: relative;
+  top:285rpx;
+  left:180rpx;
+  width:250rpx;
+  background-color: rgb(245, 245, 245);
+}
+#btn4{
+  position: relative;
+  top:300rpx;
+  right:240rpx;
+  background-color: rgb(245, 245, 245);
+}
+
+#btn5{
+  position: relative;
+  top:225rpx;
+  left:180rpx;
+  width:250rpx;
+  background-color: rgb(245, 245, 245);
+}
+
+#btn2::after{
+  border: none;
+}
+#btn2 text{
+  color:blue;
+  font-size: 39rpx;
+}
+
+#btn3::after{
+  border: none;
+}
+#btn3 text{
+  color:blue;
+  font-size: 39rpx;
+}
+
+#btn4::after{
+  border: none;
+}
+#btn4 text{
+  color:blue;
+  font-size: 39rpx;
+}
+
+#btn5::after{
+  border: none;
+}
+#btn5 text{
+  color:blue;
+  font-size: 39rpx;
+}

@@ -1,0 +1,38 @@
+<view class="beijing">
+  <view class="wai" >
+    <view class="jj">
+      <font class='title'>标题</font>:                {{title}}
+    </view>
+    <view class="jj">
+      <font class='title'>户型</font>：                   {{hu_type}}  
+    </view>
+    <view class="jj">
+            <font class='title'>所在区域</font>:                {{region}}
+    </view>
+    <view class="jj">
+            <font class='title'>发布时间</font>:                {{pub_date}}
+    </view>
+    <view class="jj">
+            <font class='title'>附近建筑</font>:                {{nearby}}
+    </view>
+    <view class="jj">
+            <font class='title'>价格</font>：{{sum_price}}
+    </view>
+    <view class="jj">
+            <font class='title'>面积</font>：{{area}}
+    </view>
+    <view class="jj">
+            <font class='title'>小区名称</font>:                {{comm_name}}
+    </view>
+    <view class="jj">
+      <font class='title'>朝向</font>:                {{face}}
+
+    </view>
+    <view class="pj">
+      {{tools.sub(item.details)}}
+    </view>
+    <view class="house_pic">
+      <image src="https:{{img_url}}" lazy-load="true" class="img2"></image>
+    </view>
+  </view>
+</view>

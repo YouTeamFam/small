@@ -1,0 +1,41 @@
+.wai{
+  width: 100%;
+  height: 100%;
+  border: 2rpx solid lightcyan;
+  background-color: white;
+  position: relative;
+}
+.jj{
+  position: relative;
+  margin-left: 25px; 
+  margin-top: 15px;
+}
+.jj1{
+  font-size: 16px;
+  position: relative;
+  margin-left: 25px;
+  margin-top: 1px;
+}
+.title{
+  color: skyblue;
+}
+.house_pic{
+  width: 95%;
+  height: 150px;
+  position: relative;
+
+  
+}
+.img2{
+  width: 95%;
+  height: 150px;
+  position: relative;
+  margin-top: 8px;
+  margin-left: 5%;
+}
+.beijing{
+  width: 100%;
+  height: 100%;
+  background-color: #e6e6e6;
+  position: absolute;
+}

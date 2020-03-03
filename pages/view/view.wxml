@@ -1,0 +1,26 @@
+<!--pages/view/view.wxml-->
+<wxs src="../../wxs/subutil.wxs" module="tools" />
+<view class="beijing">
+  <view class="wai" wx:for="{{ items }}" wx:key="3" bindtap="showDetail" data-proid="{{item.post_id}}">
+    <view class="head_pic">
+      <image  src="https://pic1.ajkimg.com/display/anjuke/ef6970-%E5%92%B8%E9%98%B3%E7%8E%9B%E9%9B%85%E6%88%BF%E5%B1%8B/f2209eaedfad09968e7b211f7d2c46c9-599x450.jpg?t=1" lazy-load="true" class="img1"></image> 
+    </view>
+    <view class="jj">
+      <font class='price'>时间</font>:                {{item.date}}
+      
+    </view>
+    <view class="jj1">
+      <font class='bq'>标题</font>：                   {{item.title}}    
+     
+      <!-- <font class='bq'>精选</font>  |  <font class='price'>405万</font>  通州  武夷花园 -->
+    </view>
+    <view class="pj">
+      {{tools.sub(item.content)}}
+    </view>
+    <view class="house_pic">
+      <image src="{{item.tie_pic}}" lazy-load="true" class="img2"></image>
+    </view>
+  </view>
+</view>
+
+

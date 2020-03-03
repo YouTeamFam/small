@@ -1,0 +1,48 @@
+/* pages/view/view.wxss */
+.wai{
+  height: 280px;
+  margin: 15rpx;
+  border: 2rpx solid lightcyan;
+  background-color: white;
+  padding: 10rpx;
+}
+.jj{
+  margin-left: 18px; 
+  padding-top: 1px;
+}
+.jj1{
+  font-size: 16px;
+  margin-left: 18px;
+  margin-top: 1px;
+
+}
+.pj{
+  margin-left: 18px;
+}
+.price{
+  color: red;
+}
+.jg{
+  color: skyblue;
+}
+.house_pic{
+  width: 95%;
+  height: 70%;
+}
+.img2{
+  width: 95%;
+  height: 80%;
+  margin-top: 8px;
+  margin-left: 5%;
+}
+.beijing{
+  width: 100%;
+  height: 100%;
+  background-color: #e6e6e6;
+}
+.wai:hover{
+  border: 2rpx solid blue;
+}
+.wai:active{
+  background-color: lightblue
+}

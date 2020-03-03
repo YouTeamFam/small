@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/me/me",
+    "pages/view/view",
+    "pages/mes/mes",
+    "pages/viewdetail/viewdetail",
+    "pages/house_detail/house_detail",
+    "pages/new_house/new_house",
+    "pages/loginpage/loginpage",
+    "pages/pt_registerpage/pt_registerpage",
+    "pages/broker_registerpage/broker_registerpage",
+    "pages/landlord_registerpage/landlord_registerpage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#884",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#f00",
+    "position": "bottom",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "res/icons/home.png",
+        "selectedIconPath": "res/icons/home_active.png"
+      },
+      {
+        "pagePath": "pages/view/view",
+        "text": "发现",
+        "iconPath": "res/icons/view.png",
+        "selectedIconPath": "res/icons/view_active.png"
+      },
+      {
+        "pagePath": "pages/mes/mes",
+        "text": "消息",
+        "iconPath": "res/icons/mes.png",
+        "selectedIconPath": "res/icons/mes_active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "res/icons/user.png",
+        "selectedIconPath": "res/icons/user_active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

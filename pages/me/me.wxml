@@ -1,0 +1,50 @@
+<!--pages/me/me.wxml-->
+<view class="bg">
+  <view class='user_img'>
+    <image class="me_img" src='/res/icons/1.jpg'></image>
+  </view>
+    <view class="user_text">
+      <view bindtap="loginpage">登陆/注册</view>
+      <text class="hint_text" >登陆后即可体验更多服务</text>
+    </view>
+  <view class="detail">
+    <text>></text>
+  </view>
+</view>
+<view class="line"></view>
+<view class="item">
+  <view class="title">我的钱包</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</view>
+<view class="line"></view>
+<view class="item">
+  <view class="title">我的收藏</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</view>
+<view class="line"></view>
+<view class="item">
+  <view class="title">历史记录</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</view>
+<view class="line"></view>
+<view class="item">
+  <view class="title">意见反馈</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</view>
+<view class="line"></view>
+<view class="item">
+  <view class="title">设置</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</view>
+<view class="line"></view>
+

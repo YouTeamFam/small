@@ -1,0 +1,23 @@
+<!--pages/view/view.wxml-->
+<wxs src="../../wxs/subutil.wxs" module="tools" />
+<view class="beijing">
+  <view class="wai" wx:for="{{ items }}" wx:key="3" bindtap="showDetail" data-proid="{{item.source_id}}">
+        <view class="jj">
+          <font class='price'>标题</font>:                {{item.title}}
+          <font class='hx'>户型</font>：                   {{item.hu_type}}  
+        </view>
+        <view class="jj1">
+          <font class='jg'>价格</font>：{{item.sum_price}}
+          <font class='mj'>面积</font>：{{item.area}}
+          <!-- <font class='bq'>精选</font>  |  <font class='price'>405万</font>  通州  武夷花园 -->
+        </view>
+        <view class="pj">
+          {{tools.sub(item.details)}}
+        </view>
+        <view class="house_pic">
+          <image src="https:{{item.img_url}}" lazy-load="true" class="img2"></image>
+        </view>
+      </view>
+</view>
+
+

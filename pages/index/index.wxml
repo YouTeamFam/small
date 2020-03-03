@@ -1,0 +1,98 @@
+<view class="wai">
+  <view class="biaoqian"  id="b1">
+    <button  bindtap="showHouse">新房</button><button>二手房</button><button id="b2">租房</button><button>好房</button>
+  </view>
+  <view class="whell">
+    <swiper indicator-dots="{{indicatorDots}}"  
+
+           autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">  
+
+         <block wx:for="{{imgUrls}}">  
+
+           <swiper-item>  
+
+              <navigator url="{{item.link}}" hover-class="navigator-hover">  
+
+               <image src="{{item.url}}" class="slide-image" width="355" height="150"/>  
+
+              </navigator>  
+
+           </swiper-item>  
+
+         </block>  
+
+  </swiper>  
+  </view>
+  <view class="er_house">
+    <font class='bq'>二手好房</font>
+    <wxs src="../../wxs/subutil.wxs" module="tools" />
+    <view class="beijing">
+      <view class="wai" wx:for="{{ items }}" wx:key="3" bindtap="showDetail" data-proid="{{item.source_id}}">
+        <view class="jj">
+          <font class='price'>标题</font>:                {{item.title}}
+          <font class='hx'>户型</font>：                   {{item.hu_type}}  
+        </view>
+        <view class="jj1">
+          <font class='jg'>价格</font>：{{item.sum_price}}
+          <font class='mj'>面积</font>：{{item.area}}
+          <!-- <font class='bq'>精选</font>  |  <font class='price'>405万</font>  通州  武夷花园 -->
+        </view>
+        <view class="pj">
+          {{tools.sub(item.details)}}
+        </view>
+        <view class="house_pic">
+          <image src="https:{{item.img_url}}" lazy-load="true" class="img2"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="jx_house">
+    <font class='bq'>精选好房</font>
+    <view class="beijing">
+      <view class="wai" wx:for="{{ items }}" wx:key="3" bindtap="showDetail" data-proid="{{item.source_id}}">
+        <view class="jj">
+          <font class='price'>标题</font>:                {{item.title}}
+          <font class='hx'>户型</font>：                   {{item.hu_type}}  
+        </view>
+        <view class="jj1">
+          <font class='jg'>价格</font>：{{item.sum_price}}
+          <font class='mj'>面积</font>：{{item.area}}
+          <!-- <font class='bq'>精选</font>  |  <font class='price'>405万</font>  通州  武夷花园 -->
+        </view>
+        <view class="pj">
+          {{tools.sub(item.details)}}
+        </view>
+        <view class="house_pic">
+          <image src="https:{{item.img_url}}" lazy-load="true" class="img2"></image>
+        </view>
+      </view>
+    </view>
+
+
+
+  </view>
+  <view class="jx_xiaoqu">
+    <font class='bq'>精选小区</font>
+    <view class="beijing">
+      <view class="wai" wx:for="{{ items }}" wx:key="3" bindtap="showDetail" data-proid="{{item.source_id}}">
+        <view class="jj">
+          <font class='price'>标题</font>:                {{item.title}}
+          <font class='hx'>户型</font>：                   {{item.hu_type}}  
+        </view>
+        <view class="jj1">
+          <font class='jg'>价格</font>：{{item.sum_price}}
+          <font class='mj'>面积</font>：{{item.area}}
+          <!-- <font class='bq'>精选</font>  |  <font class='price'>405万</font>  通州  武夷花园 -->
+        </view>
+        <view class="pj">
+          {{tools.sub(item.details)}}
+        </view>
+        <view class="house_pic">
+          <image src="https:{{item.img_url}}" lazy-load="true" class="img2"></image>
+        </view>
+      </view>
+    </view>
+
+
+  </view>
+</view>
